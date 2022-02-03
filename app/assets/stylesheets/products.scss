@@ -73,4 +73,17 @@ main section.products-show {
   }
 }
 
+main section.dashboard-show {
+  .dashboard {
+    display:         flex;
+    flex-direction:  row;
+    flex-wrap:       wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #000000;
 
+    &__count {
+      padding-top: 20px;
+    }
+  }
+}
