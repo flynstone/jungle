@@ -1,0 +1,19 @@
+<ol class="simple">
+  <li>
+    <%= image_tag product.image.tiny %>
+  </li>
+  <li>
+    <h4><%= product.name %></h4>
+    <br>
+    <p><%= product.description %></p>
+  </li>
+  <li>
+    <%= humanized_money_with_symbol product.price %>
+  </li>
+  <li>
+    <%= quantity %>
+  </li>
+  <li>
+    <%= humanized_money_with_symbol product.price * quantity %>
+  </li>
+</ol>
