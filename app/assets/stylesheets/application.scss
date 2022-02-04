@@ -15,17 +15,3 @@ body {
 form.button_to {
   display: inline;
 }
-
-.dashboard {
-  display: flex;
-  justify-content: space-between;
-
-  &__info {
-    flex-grow: 1;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
