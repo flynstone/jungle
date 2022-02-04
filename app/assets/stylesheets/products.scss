@@ -82,9 +82,11 @@ main section.dashboard-show {
 
 main section.about-show {
   .index {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
   }
 }
