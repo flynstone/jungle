@@ -1,6 +1,6 @@
 class Admin::DashboardController < ApplicationController
   def show
-    @product_count = Product.count(:all)
-    @category_count = Product.distinct.count(:category_id)
+    @product = Product.count(:all)
+    @category = Category.all.count(:all)
   end
 end
